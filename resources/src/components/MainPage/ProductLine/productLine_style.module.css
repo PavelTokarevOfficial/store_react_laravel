@@ -1,0 +1,55 @@
+.headerLine{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titleList{
+    margin: 20px 0;
+}
+.btn_all{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #d0d0d0;
+}
+.btn_all:hover{
+   background-color: #f1f1f1;
+    transition-duration: 0.5s;
+}
+.listCard {
+    display: flex;
+    overflow-x: scroll;
+    width: 1100px;
+}
+.card {
+    min-width: 300px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.cardTitle h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 10px 0;
+}
+
+.cardImage img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.description {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+

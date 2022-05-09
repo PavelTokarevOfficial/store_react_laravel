@@ -1,0 +1,30 @@
+.block{
+    width: 290px;
+    border-radius: 10px;
+    border:solid #EEEEEE 1px ;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title{
+    margin: 20px 20px 0;
+    text-align: center;
+    font-size: 16px;
+
+}
+.block p {
+    text-align: center;
+    margin: 10px 20px 0;
+    font-size: 13px;
+}
+.info_delivery{
+    text-align: center;
+}
+.btn_clear{
+    background-color: white;
+    border: none;
+    border-top: solid #EEEEEE 1px ;
+    padding: 10px 0;
+    border-radius: 0 0 10px 10px;
+}

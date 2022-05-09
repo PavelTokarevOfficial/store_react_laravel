@@ -1,0 +1,22 @@
+.list>*{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.list li:hover{
+    background-color: #d0d0d0;
+    transition-duration: 0.5s;
+}
+.icon{
+    width: 20px;
+}
+.list button{
+    margin-left: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+
+}

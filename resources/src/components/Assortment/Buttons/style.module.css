@@ -1,0 +1,30 @@
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+
+}
+
+.buttons .button {
+    background-color: #EEEEEE;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.textCounter {
+
+    font-size: 14px;
+    margin: 0 10px;
+}
+.icon{
+    width: 10px;
+}
+

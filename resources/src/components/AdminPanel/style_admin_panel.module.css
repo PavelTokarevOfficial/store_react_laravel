@@ -1,0 +1,20 @@
+.panel{
+
+
+}
+.form_add{
+    display: flex;
+    flex-direction: column;
+}
+.form_add>*{
+    margin-top: 20px;
+}
+.list_products{
+    margin-top: 50px;
+}
+.list_item>*{
+    margin-right: 10px;
+}
+.list_item{
+    display: flex;
+}
