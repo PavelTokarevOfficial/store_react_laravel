@@ -30,7 +30,8 @@ function AdminPanel() {
             <h2>админская панель</h2>
             <div>
                 <h3>добавить товар</h3>
-                <form action="" id='form_add' className={style.form_add}>
+                <form action="" id='form_add' method="post" className={style.form_add} enctype="multipart/form-data">
+
                     <input onChange={event => setName(event.target.value)} type="text" placeholder='введите название'/>
                     <textarea onChange={event => setDesc(event.target.value)} placeholder='Введите описание'></textarea>
                     <input type="text" onChange={event => setWeight(event.target.value)} placeholder='введите массу'/>
@@ -43,18 +44,6 @@ function AdminPanel() {
                     <input type="file" onChange={event => setImage(event.target.value)} />
                     <button type='button' onClick={()=>addProduct()}>Добавить</button>
                 </form>
-            </div>
-            <div className={style.list_products}>
-                <h3>спивок товаров</h3>
-                <div className={style.list_item}>
-                    <img src="" alt="img"/>
-                    <div className={style.title}>заголовок</div>
-                    <div className={style.description}>описание</div>
-                    <div className={style.mass}>масса</div>
-                    <div className={style.price}>цена</div>
-                    <div className={style.type}>тип товара</div>
-
-                </div>
             </div>
         </div>
     );
