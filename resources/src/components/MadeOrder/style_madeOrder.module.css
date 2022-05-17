@@ -1,0 +1,28 @@
+.content{
+    width: 1200px;
+}
+
+.address{
+    display: flex;
+    justify-content: center;
+}
+.inputs{
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form_order{
+    width: 350px;
+}
+.inputs input{
+    padding: 5px;
+    border-radius: 5px;
+}
+.btn_order{
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}

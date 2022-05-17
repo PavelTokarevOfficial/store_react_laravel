@@ -14,6 +14,7 @@ import AdminPanel from "./components/AdminPanel/AdminPanel";
 import base_cheesecakes from './components/temporary_base_cheesecakes'
 import base_cakes from './components/temporary_base_cakes'
 import drinks from './components/temporary_base_drinks'
+import MadeOrder from "./components/MadeOrder/MadeOrder";
 
 function App() {
     return (
@@ -29,6 +30,7 @@ function App() {
                     <Route path='/delivery_terms' element={<DeliveryTerms/>}/>
                     <Route path='/about_us' element={<AboutUs/>}/>
                     <Route path='/admin' element={<AdminPanel/>}/>
+                    <Route path='/order' element={<MadeOrder/>}/>
                 </Routes>
                 <Basket/>
             </main>

@@ -1,36 +1,21 @@
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 20px;
 }
 .right_block{
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
-}
-.middle_block{
-    padding: 0 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 1050px;
+
 }
 .logo{
     width: 235px;
 }
-.about_delivery p{
-    display: inline-block;
-}
-
-.btn_login{
-    border: none;
-    background-color: white;
-}
-.btn_login:first-child{
-    margin-right: 10px;
-}
 .search{
     display: flex;
+    width: 500px;
+    margin: 0 10px;
 }
 .str_search{
     width: 100%;
@@ -44,7 +29,11 @@
     border: none;
     padding: 16px 35px;
 }
-
+.btn_login{
+    border: none;
+    margin-left: 10px;
+    background-color: white;
+}
 .btn_basket{
     border: none;
     padding: 11px 17px;
