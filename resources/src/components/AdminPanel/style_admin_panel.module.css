@@ -1,5 +1,9 @@
-.panel{
+.wrapper{
+    width: 100%;
+}
 
+.panel{
+    max-width: 500px;
 
 }
 .form_add{

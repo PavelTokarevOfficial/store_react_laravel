@@ -1,21 +1,17 @@
 import React from "react";
 import style from "./mainPage_style.module.css";
-import ProductLine from "./ProductLine/ProductLine";
 import Slider from "../Slider/Slider";
+import Advantage from "./Advantage/Advantage";
+import Stock from "./Stock/Stock";
 
-function MainPage({cheesecakes, cakes, drinks}) {
+
+
+function MainPage() {
     return (
-        <div>
-            <div className={style.slider}>
-                <Slider />
-            </div>
-
-            <ProductLine items={cheesecakes} title={"Чизкейки"} link={"cheesecake"}/>
-            <ProductLine items={cakes} title={"Торты"} link={"cake"}/>
-            <ProductLine items={drinks} title={"Напитки"} link={"drinks"}/>
-            <div>мб акции</div>
-            <div>популярные товары</div>
-            <div>слоган + почемму стоит покупать</div>
+        <div className={style.main_page}>
+            <Slider/>
+            <Advantage/>
+            <Stock/>
         </div>
     );
 }

@@ -24,14 +24,14 @@ function About_Us() {
             <h2>О нас</h2>
             <div className={style.map}>
                 <YMaps>
-                    <Map width={'100%'} height={'400px'} defaultState={mapData}>
+                    <Map width={'99%'} height={'400px'} defaultState={mapData}>
                         {coordinates.map(coordinate => <Placemark geometry={coordinate}/>)}
                     </Map>
                 </YMaps>
             </div>
             <div>
                 <h2>Адреса и часы работы</h2>
-                <div className={style.addres}>
+                <div className={style.address}>
                     <div>
                         <h5>Г. Москва, ул. Люблинская улица, д. 61</h5>
                         <h6>Часы работы:</h6>
@@ -67,24 +67,21 @@ function About_Us() {
                         <img src={icon3} alt=""/>
                         <h3>Гарантия качества</h3>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur est facilis hic id laborum
-                        non odio quia, quos voluptas voluptates.</p>
+                    <p>Неповторимый вкус наших тортов удовлетворяет даже самых взыскательных шеф-кондитеров.</p>
                 </div>
                 <div className={style.list_item}>
                     <div className={style.title_list}>
                         <img src={icon1} alt=""/>
                         <h3>Широкий ассортимент</h3>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur est facilis hic id laborum
-                        non odio quia, quos voluptas voluptates.</p>
+                    <p>Вы найдете все что угодно в нашем огромном, тщательно продуманном каталоге. </p>
                 </div>
                 <div className={style.list_item}>
                     <div className={style.title_list}>
                         <img src={icon2} alt=""/>
-                        <h3>Собственное производство</h3>
+                        <h3>Постоянно новинки</h3>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur est facilis hic id laborum
-                        non odio quia, quos voluptas voluptates.</p>
+                    <p>Каждый месяц у нас появляются новые торты и десерты. Поверьте, мы найдем чем Вас удивить!</p>
                 </div>
             </div>
         </div>

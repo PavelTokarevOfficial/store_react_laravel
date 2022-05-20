@@ -1,3 +1,4 @@
+
 .headerLine{
     display: flex;
     justify-content: space-between;
@@ -17,41 +18,30 @@
     transition-duration: 0.5s;
 }
 .listCard {
+    max-width: 1620px;
     display: flex;
     overflow-x: scroll;
-    width: 1100px;
 }
 .card {
-    min-width: 300px;
+    width: 300px;
     margin-right: 10px;
     padding: 10px;
 }
 
-.cardTitle h2 {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 16px;
-    margin: 10px 0;
-}
-
-.cardImage img {
-    width: 100%;
-    height: 200px;
+.cardImage{
+    width: 250px;
     object-fit: cover;
     border-radius: 5px;
 }
 
-.description {
+.cardTitle {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
     line-height: 16px;
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
-
 .listCard::-webkit-scrollbar{
     height: 10px;
     box-shadow: inset 0 0 6px rgba(117, 117, 117, 0.3);
@@ -59,10 +49,6 @@
 }
 
 .listCard::-webkit-scrollbar-thumb{
-
     background-color: #cecece;
     border-radius: 10px;
 }
-
-
-

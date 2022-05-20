@@ -1,4 +1,13 @@
-.list>*{
+.menu {
+    min-width: 220px;
+    margin-right: 20px;
+}
+
+.list {
+    padding: 0;
+}
+
+.list > * {
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -7,16 +16,19 @@
     border-radius: 5px;
 }
 
-.list li:hover{
+.list li:hover {
     background-color: #d0d0d0;
     transition-duration: 0.5s;
 }
-.icon{
+
+.icon {
     width: 20px;
 }
-.list button{
+
+.list button {
     margin-left: 10px;
     border: none;
     background-color: rgba(255, 255, 255, 0);
-
 }
+
+

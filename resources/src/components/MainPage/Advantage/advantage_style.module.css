@@ -1,0 +1,32 @@
+.slogan{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.advantage{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.advantageItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-width: 350px;
+    max-width: 390px;
+}
+.advantageItem img{
+    width: 25%;
+}
+.advantageItem h2{
+    margin: 20px 0;
+    font-size: 25px;
+
+}
+.advantageItem p{
+    text-align: center;
+}

@@ -21,7 +21,10 @@ function App() {
         <div className="container">
             <Header/>
             <main className={style.page}>
-                <Menu/>
+                <div className={style.menu}>
+                    <Menu/>
+                </div>
+
                 <Routes>
                     <Route path='/' element={<MainPage cheesecakes={base_cheesecakes} cakes={base_cakes} drinks={drinks}/>}/>
                     <Route path='/cheesecake' element={<Assortment items={base_cheesecakes} title={"Чизкейки"} unit={"грамм"}/>}/>
@@ -32,7 +35,7 @@ function App() {
                     <Route path='/admin' element={<AdminPanel/>}/>
                     <Route path='/order' element={<MadeOrder/>}/>
                 </Routes>
-                <Basket/>
+                {/*<Basket/>*/}
             </main>
             <Footer/>
         </div>

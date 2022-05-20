@@ -9,24 +9,24 @@ function Slider() {
         <div>
             <Carousel>
                 <Carousel.Item>
-                    <img className="d-block w-100" src={img1} alt="First slide" />
+                    <img className="d-block w-100" src={img1} alt="First slide"/>
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Заводская нарезка</h3>
+                        <p>Это делает срез ровным</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img className="d-block w-100" src={img2} alt="Second slide" />
+                    <img className="d-block w-100" src={img2} alt="Second slide"/>
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Натуральность</h3>
+                        <p>В основе наших десертов — сливочный сыр собственного производства</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img className="d-block w-100" src={img3} alt="Third slide" />
+                    <img className="d-block w-100" src={img3} alt="Third slide"/>
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3>Большой срок хранения</h3>
+                        <p>Благодаря нашему рецепту десерты хорошо хранятся</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel></div>

@@ -1,0 +1,18 @@
+.stock{
+
+}
+.slogan{
+    text-align: center;
+    margin: 40px 0;
+}
+.listImage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.listImage img{
+    width: 100%;
+    max-width: 480px;
+    margin: 20px;
+    border-radius: 10px;
+}

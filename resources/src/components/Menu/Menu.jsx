@@ -10,7 +10,7 @@ import {Link} from "react-router-dom";
 
 function Menu(){
     return(
-        <div >
+        <div className={style.menu}>
             <ul className={style.list}>
                 <li>
                     <img src={home} alt="" className={style.icon}/>

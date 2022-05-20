@@ -10,7 +10,7 @@
 
 }
 .logo{
-    width: 235px;
+    width: 200px;
 }
 .search{
     display: flex;
@@ -40,4 +40,50 @@
     border-radius: 6px;
     color: #EE7104;
 }
+.btn_menu{
+    display: none;
+}
+.right_block img{
+    display: none;
+}
+.icon{
+    width: 20px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+@media (max-width: 768px) {
+    .search{
+        display: none;
+    }
+    .right_block span{
+        display: none;
+    }
+    .right_block img{
+        display: block;
+    }
+    .block_logo{
+        display: none;
+    }
+    .btn_menu{
+        display: block;
+    }
+}
+
+
 

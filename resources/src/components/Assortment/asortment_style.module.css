@@ -7,8 +7,7 @@
     margin-top: 20px;
     display: grid;
     grid-template-columns:   1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
-    width: 1100px;
+    grid-gap: 20px;
 }
 
 .card {
@@ -46,3 +45,25 @@
     font-size: 12px;
     margin-bottom: 10px;
 }
+@media (max-width: 1200px) {
+    .listCard {
+        grid-template-columns:   1fr 1fr 1fr;
+    }
+}
+@media (max-width: 992px)  {
+    .listCard {
+        grid-template-columns:   1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .listCard {
+        grid-template-columns: 100%;
+    }
+    .cardImage img{
+        height: 280px;
+    }
+
+}
+
+
