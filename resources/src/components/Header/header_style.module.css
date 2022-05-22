@@ -28,6 +28,7 @@
     border-radius: 0px 6px 6px 0px;
     border: none;
     padding: 16px 35px;
+    max-width: 130px;
 }
 .btn_login{
     border: none;

@@ -7491,48 +7491,51 @@ function App() {
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("div", {
         className: _app_style_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].menu,
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_Menu_Menu__WEBPACK_IMPORTED_MODULE_3__["default"], {})
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Routes, {
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
-          path: "/",
-          element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_MainPage_MainPage__WEBPACK_IMPORTED_MODULE_6__["default"], {
-            cheesecakes: _components_temporary_base_cheesecakes__WEBPACK_IMPORTED_MODULE_11__["default"],
-            cakes: _components_temporary_base_cakes__WEBPACK_IMPORTED_MODULE_12__["default"],
-            drinks: _components_temporary_base_drinks__WEBPACK_IMPORTED_MODULE_13__["default"]
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
-          path: "/cheesecake",
-          element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_Assortment_Assortment__WEBPACK_IMPORTED_MODULE_4__["default"], {
-            items: _components_temporary_base_cheesecakes__WEBPACK_IMPORTED_MODULE_11__["default"],
-            title: "Чизкейки",
-            unit: "грамм"
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
-          path: "/cake",
-          element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_Assortment_Assortment__WEBPACK_IMPORTED_MODULE_4__["default"], {
-            items: _components_temporary_base_cakes__WEBPACK_IMPORTED_MODULE_12__["default"],
-            title: "Торты",
-            unit: "грамм"
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
-          path: "/drinks",
-          element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_Assortment_Assortment__WEBPACK_IMPORTED_MODULE_4__["default"], {
-            items: _components_temporary_base_drinks__WEBPACK_IMPORTED_MODULE_13__["default"],
-            title: "Напитки",
-            unit: "объем"
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
-          path: "/delivery_terms",
-          element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_DeliveryTerms_DeliveryTerms__WEBPACK_IMPORTED_MODULE_5__["default"], {})
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
-          path: "/about_us",
-          element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_AboutUs_AboutUs__WEBPACK_IMPORTED_MODULE_7__["default"], {})
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
-          path: "/admin",
-          element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_AdminPanel_AdminPanel__WEBPACK_IMPORTED_MODULE_10__["default"], {})
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
-          path: "/order",
-          element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_MadeOrder_MadeOrder__WEBPACK_IMPORTED_MODULE_14__["default"], {})
-        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("div", {
+        className: _app_style_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].main_content,
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Routes, {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
+            path: "/",
+            element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_MainPage_MainPage__WEBPACK_IMPORTED_MODULE_6__["default"], {
+              cheesecakes: _components_temporary_base_cheesecakes__WEBPACK_IMPORTED_MODULE_11__["default"],
+              cakes: _components_temporary_base_cakes__WEBPACK_IMPORTED_MODULE_12__["default"],
+              drinks: _components_temporary_base_drinks__WEBPACK_IMPORTED_MODULE_13__["default"]
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
+            path: "/cheesecake",
+            element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_Assortment_Assortment__WEBPACK_IMPORTED_MODULE_4__["default"], {
+              items: _components_temporary_base_cheesecakes__WEBPACK_IMPORTED_MODULE_11__["default"],
+              title: "Чизкейки",
+              unit: "грамм"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
+            path: "/cake",
+            element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_Assortment_Assortment__WEBPACK_IMPORTED_MODULE_4__["default"], {
+              items: _components_temporary_base_cakes__WEBPACK_IMPORTED_MODULE_12__["default"],
+              title: "Торты",
+              unit: "грамм"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
+            path: "/drinks",
+            element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_Assortment_Assortment__WEBPACK_IMPORTED_MODULE_4__["default"], {
+              items: _components_temporary_base_drinks__WEBPACK_IMPORTED_MODULE_13__["default"],
+              title: "Напитки",
+              unit: "объем"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
+            path: "/delivery_terms",
+            element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_DeliveryTerms_DeliveryTerms__WEBPACK_IMPORTED_MODULE_5__["default"], {})
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
+            path: "/about_us",
+            element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_AboutUs_AboutUs__WEBPACK_IMPORTED_MODULE_7__["default"], {})
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
+            path: "/admin",
+            element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_AdminPanel_AdminPanel__WEBPACK_IMPORTED_MODULE_10__["default"], {})
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_16__.Route, {
+            path: "/order",
+            element: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_MadeOrder_MadeOrder__WEBPACK_IMPORTED_MODULE_14__["default"], {})
+          })]
+        })
       })]
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_8__["default"], {})]
   });
@@ -9299,10 +9302,11 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".WiJUTeqqP6vjWEgS0vNDhg\\=\\={\n    display: flex;\n    justify-content: space-between;\n    margin-top: 40px;\n}\n\n\n@media (max-width: 768px) {\n    .dA2Yt2L8Yb9MkAtg6ZO5LA\\=\\={\n        display: none;\n    }\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".WiJUTeqqP6vjWEgS0vNDhg\\=\\={\n    display: flex;\n    justify-content: space-between;\n    margin-top: 40px;\n}\n._17-VvCU-JSshpNMspxsx9Q\\=\\={\n    width: 100%;\n}\n\n@media (max-width: 768px) {\n    .dA2Yt2L8Yb9MkAtg6ZO5LA\\=\\={\n        display: none;\n    }\n}\n", ""]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"page": "WiJUTeqqP6vjWEgS0vNDhg==",
+	"main_content": "_17-VvCU-JSshpNMspxsx9Q==",
 	"menu": "dA2Yt2L8Yb9MkAtg6ZO5LA=="
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
@@ -9327,7 +9331,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".MXKch2Vis127HmOHbfAw-g\\=\\= {\n    width: 1200px;\n}\n\n.Q49E3o36f\\+zab\\+RNPhy\\+Rw\\=\\= {\n    margin-top: 30px;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n    -moz-column-gap: 20px;\n         column-gap: 20px;\n}\nh3 {\n    font-size: 20px;\n}\n.YYIc28Fi4wuVT0smNx9yWw\\=\\= {\n    display: flex;\n    align-items: center;\n    margin-bottom: 15px;\n}\n.YYIc28Fi4wuVT0smNx9yWw\\=\\= > img {\n    width: 50px;\n    margin-right: 20px;\n}\n.CMnApWSB\\+9BITQJnMxzJ3g\\=\\={\n    display: flex;\n    justify-content: space-around;\n}\n\n\n@media (max-width: 1200px){\n    .CMnApWSB\\+9BITQJnMxzJ3g\\=\\={\n        justify-content: flex-start;\n        flex-wrap: wrap;\n    }\n}\n@media (max-width: 768px){\n    .Q49E3o36f\\+zab\\+RNPhy\\+Rw\\=\\= {\n        grid-template-columns: 1fr 1fr;\n        -moz-column-gap: 10px;\n             column-gap: 10px;\n    }\n}\n@media (max-width: 480px){\n    .CMnApWSB\\+9BITQJnMxzJ3g\\=\\= div{\n        max-width: 320px;\n\n    }\n    .Q49E3o36f\\+zab\\+RNPhy\\+Rw\\=\\= {\n        grid-template-columns: 1fr;\n        padding: 20px 0;\n    }\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".MXKch2Vis127HmOHbfAw-g\\=\\= {\n\n}\n\n.Q49E3o36f\\+zab\\+RNPhy\\+Rw\\=\\= {\n    margin-top: 30px;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n    -moz-column-gap: 20px;\n         column-gap: 20px;\n}\nh3 {\n    font-size: 20px;\n}\n.YYIc28Fi4wuVT0smNx9yWw\\=\\= {\n    display: flex;\n    align-items: center;\n    margin-bottom: 15px;\n}\n.YYIc28Fi4wuVT0smNx9yWw\\=\\= > img {\n    width: 50px;\n    margin-right: 20px;\n}\n.CMnApWSB\\+9BITQJnMxzJ3g\\=\\={\n    display: flex;\n    justify-content: space-around;\n}\n\n\n@media (max-width: 1200px){\n    .CMnApWSB\\+9BITQJnMxzJ3g\\=\\={\n        justify-content: flex-start;\n        flex-wrap: wrap;\n    }\n}\n@media (max-width: 768px){\n    .Q49E3o36f\\+zab\\+RNPhy\\+Rw\\=\\= {\n        grid-template-columns: 1fr 1fr;\n        -moz-column-gap: 10px;\n             column-gap: 10px;\n    }\n}\n@media (max-width: 480px){\n    .CMnApWSB\\+9BITQJnMxzJ3g\\=\\= div{\n        max-width: 320px;\n\n    }\n    .Q49E3o36f\\+zab\\+RNPhy\\+Rw\\=\\= {\n        grid-template-columns: 1fr;\n        padding: 20px 0;\n    }\n}\n", ""]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"content": "MXKch2Vis127HmOHbfAw-g==",
@@ -9388,7 +9392,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\r\n.gRMmICQgAp8qB96-bMvbNg\\=\\= {\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n\r\n.oA9s1zFi1Qo\\+9UhSULqT7w\\=\\= {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: baseline;\r\n\r\n\r\n}\r\n\r\n.gRMmICQgAp8qB96-bMvbNg\\=\\= .iXuM3iGMtgBt3p6F8FeE9w\\=\\= {\r\n    background-color: #EEEEEE;\r\n    border: none;\r\n    padding: 5px;\r\n    border-radius: 5px;\r\n}\r\n\r\n.U5AG1OGsbUAkoPcOYUTOxg\\=\\= {\r\n\r\n    font-size: 14px;\r\n    margin: 0 10px;\r\n}\r\n._6dFgZhLpshMJWQeVcwcClA\\=\\={\r\n    width: 10px;\r\n}\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.gRMmICQgAp8qB96-bMvbNg\\=\\= {\n    display: flex;\n    justify-content: space-between;\n}\n\n.oA9s1zFi1Qo\\+9UhSULqT7w\\=\\= {\n    display: flex;\n    justify-content: space-between;\n    align-items: baseline;\n\n\n}\n\n.gRMmICQgAp8qB96-bMvbNg\\=\\= .iXuM3iGMtgBt3p6F8FeE9w\\=\\= {\n    background-color: #EEEEEE;\n    border: none;\n    padding: 5px;\n    border-radius: 5px;\n    width: revert;\n}\n\n.U5AG1OGsbUAkoPcOYUTOxg\\=\\= {\n\n    font-size: 14px;\n    margin: 0 10px;\n}\n._6dFgZhLpshMJWQeVcwcClA\\=\\={\n    width: 10px;\n}\n\n", ""]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"buttons": "gRMmICQgAp8qB96-bMvbNg==",
@@ -9541,7 +9545,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".TC94SlXYNuioeAtgr0wxTg\\=\\={\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    margin-top: 20px;\n}\n.mu5QeO2\\+MkPIDIdmaxMVWA\\=\\={\n    display: flex;\n    justify-content: space-between;\n\n}\n.cpzqn6JIcSjB0uUlmTZXIw\\=\\={\n    width: 200px;\n}\n.hDWqSspe9a0DNbMntJDaWw\\=\\={\n    display: flex;\n    width: 500px;\n    margin: 0 10px;\n}\n._4K1Pk\\+M-T5tF4mdRda6jOg\\=\\={\n    width: 100%;\n    border: 1px solid #EEEEEE;\n    border-radius: 6px 0 0 6px;\n    padding: 15px;\n}\n._2Q70zRhnYpsVR1CyaYW4AQ\\=\\={\n    background: #F1F1F1;\n    border-radius: 0px 6px 6px 0px;\n    border: none;\n    padding: 16px 35px;\n}\n.Kj03CX7Ie1D15GdNntXR4g\\=\\={\n    border: none;\n    margin-left: 10px;\n    background-color: white;\n}\n.ylBZqJiYw-TZ2aozY068vw\\=\\={\n    border: none;\n    padding: 11px 17px;\n    border-radius: 6px;\n    color: #EE7104;\n}\n.-glJpmZf1EShy\\+u1jiepiQ\\=\\={\n    display: none;\n}\n.mu5QeO2\\+MkPIDIdmaxMVWA\\=\\= img{\n    display: none;\n}\n.jgGLfUp8uvVQfLkwFlQQAA\\=\\={\n    width: 20px;\n}\ninput{\n    width: 100%;\n    padding: 10px;\n    border-radius: 10px;\n    border: 2px solid gray;\n}\nselect{\n    width: 100%;\n    padding: 10px;\n    border-radius: 10px;\n    border: 2px solid gray;\n}\nbutton{\n    width: 100%;\n    padding: 10px;\n    border-radius: 10px;\n    border: none;\n}\n@media (max-width: 768px) {\n    .hDWqSspe9a0DNbMntJDaWw\\=\\={\n        display: none;\n    }\n    .mu5QeO2\\+MkPIDIdmaxMVWA\\=\\= span{\n        display: none;\n    }\n    .mu5QeO2\\+MkPIDIdmaxMVWA\\=\\= img{\n        display: block;\n    }\n    .\\+k2r9kBikobzILR0nvNTKQ\\=\\={\n        display: none;\n    }\n    .-glJpmZf1EShy\\+u1jiepiQ\\=\\={\n        display: block;\n    }\n}\n\n\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".TC94SlXYNuioeAtgr0wxTg\\=\\={\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    margin-top: 20px;\n}\n.mu5QeO2\\+MkPIDIdmaxMVWA\\=\\={\n    display: flex;\n    justify-content: space-between;\n\n}\n.cpzqn6JIcSjB0uUlmTZXIw\\=\\={\n    width: 200px;\n}\n.hDWqSspe9a0DNbMntJDaWw\\=\\={\n    display: flex;\n    width: 500px;\n    margin: 0 10px;\n}\n._4K1Pk\\+M-T5tF4mdRda6jOg\\=\\={\n    width: 100%;\n    border: 1px solid #EEEEEE;\n    border-radius: 6px 0 0 6px;\n    padding: 15px;\n}\n._2Q70zRhnYpsVR1CyaYW4AQ\\=\\={\n    background: #F1F1F1;\n    border-radius: 0px 6px 6px 0px;\n    border: none;\n    padding: 16px 35px;\n    max-width: 130px;\n}\n.Kj03CX7Ie1D15GdNntXR4g\\=\\={\n    border: none;\n    margin-left: 10px;\n    background-color: white;\n}\n.ylBZqJiYw-TZ2aozY068vw\\=\\={\n    border: none;\n    padding: 11px 17px;\n    border-radius: 6px;\n    color: #EE7104;\n}\n.-glJpmZf1EShy\\+u1jiepiQ\\=\\={\n    display: none;\n}\n.mu5QeO2\\+MkPIDIdmaxMVWA\\=\\= img{\n    display: none;\n}\n.jgGLfUp8uvVQfLkwFlQQAA\\=\\={\n    width: 20px;\n}\ninput{\n    width: 100%;\n    padding: 10px;\n    border-radius: 10px;\n    border: 2px solid gray;\n}\nselect{\n    width: 100%;\n    padding: 10px;\n    border-radius: 10px;\n    border: 2px solid gray;\n}\nbutton{\n    width: 100%;\n    padding: 10px;\n    border-radius: 10px;\n    border: none;\n}\n@media (max-width: 768px) {\n    .hDWqSspe9a0DNbMntJDaWw\\=\\={\n        display: none;\n    }\n    .mu5QeO2\\+MkPIDIdmaxMVWA\\=\\= span{\n        display: none;\n    }\n    .mu5QeO2\\+MkPIDIdmaxMVWA\\=\\= img{\n        display: block;\n    }\n    .\\+k2r9kBikobzILR0nvNTKQ\\=\\={\n        display: none;\n    }\n    .-glJpmZf1EShy\\+u1jiepiQ\\=\\={\n        display: block;\n    }\n}\n\n\n\n", ""]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"header": "TC94SlXYNuioeAtgr0wxTg==",

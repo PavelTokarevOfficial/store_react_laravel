@@ -24,17 +24,19 @@ function App() {
                 <div className={style.menu}>
                     <Menu/>
                 </div>
+                <div className={style.main_content}>
+                    <Routes>
+                        <Route path='/' element={<MainPage cheesecakes={base_cheesecakes} cakes={base_cakes} drinks={drinks}/>}/>
+                        <Route path='/cheesecake' element={<Assortment items={base_cheesecakes} title={"Чизкейки"} unit={"грамм"}/>}/>
+                        <Route path='/cake' element={<Assortment items={base_cakes} title={"Торты"} unit={"грамм"}/>}/>
+                        <Route path='/drinks' element={<Assortment items={drinks} title={"Напитки"} unit={"объем"}/>}/>
+                        <Route path='/delivery_terms' element={<DeliveryTerms/>}/>
+                        <Route path='/about_us' element={<AboutUs/>}/>
+                        <Route path='/admin' element={<AdminPanel/>}/>
+                        <Route path='/order' element={<MadeOrder/>}/>
+                    </Routes>
+                </div>
 
-                <Routes>
-                    <Route path='/' element={<MainPage cheesecakes={base_cheesecakes} cakes={base_cakes} drinks={drinks}/>}/>
-                    <Route path='/cheesecake' element={<Assortment items={base_cheesecakes} title={"Чизкейки"} unit={"грамм"}/>}/>
-                    <Route path='/cake' element={<Assortment items={base_cakes} title={"Торты"} unit={"грамм"}/>}/>
-                    <Route path='/drinks' element={<Assortment items={drinks} title={"Напитки"} unit={"объем"}/>}/>
-                    <Route path='/delivery_terms' element={<DeliveryTerms/>}/>
-                    <Route path='/about_us' element={<AboutUs/>}/>
-                    <Route path='/admin' element={<AdminPanel/>}/>
-                    <Route path='/order' element={<MadeOrder/>}/>
-                </Routes>
                 {/*<Basket/>*/}
             </main>
             <Footer/>
